@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raghav Sharma — B.Tech CSE @ JIIT'29, developer, open-source contributor and builder.">
+  <title>Raghav Sharma — Digital Sandbox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <button class="brand" data-scroll="home" aria-label="Go home">RS<span>.</span></button>
+    <nav>
+      <button data-scroll="about">About</button>
+      <button data-scroll="skills">Skills</button>
+      <button data-scroll="projects">Projects</button>
+      <button data-scroll="experience">Experience</button>
+      <button data-scroll="clubs">Clubs</button>
+      <button data-scroll="terminal">Terminal</button>
+      <button data-scroll="contact">Contact</button>
+    </nav>
+    <a class="nav-cta" href="https://github.com/RAGHAV4056" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DIGITAL SANDBOX // ONLINE</p>
+        <h1>RAGHAV <span>SHARMA</span></h1>
+        <p class="role">B.Tech CSE @ JIIT'29</p>
+        <p class="lead">Full-Stack Developer <b>•</b> Open Source Contributor</p>
+        <p class="tagline">Building impactful software one commit at a time. Your Friendly Neighborhood Developer.</p>
+        <div class="hero-actions">
+          <button class="primary" data-scroll="projects">Explore projects</button>
+          <button class="secondary" data-scroll="terminal">Open terminal <span>/</span></button>
+        </div>
+        <div class="badges">
+          <div><strong>Elip AI (YC W25)</strong><span>Campus Ambassador '26</span></div>
+          <div><strong>Google Gemini</strong><span>Student Ambassador '26</span></div>
+          <div><strong>SIH'25</strong><span>Institute Nominee</span></div>
+          <div><strong>ISVC</strong><span>Round 1 Qualifier</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="scene" aria-label="Interactive developer scene">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="portrait-frame" id="portrait">
+          <img src="src/profile.jpg" alt="Raghav Sharma">
+          <div class="portrait-glow"></div>
+        </div>
+        <div class="code-chip chip-one">&lt;/&gt;</div>
+        <div class="code-chip chip-two">{ }</div>
+        <div class="code-chip chip-three">$ whoami</div>
+        <button class="scene-toggle" id="sceneToggle" type="button">◉ 3D MODE</button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div class="about-grid">
+        <div>
+          <h2>Developer mindset,<br><span>builder energy.</span></h2>
+          <p>I am an ambitious and self-driven coder who believes in building solutions, not just writing code. I combine discipline with creativity, approach problems with patience and strategic thinking, and keep refining until the result is genuinely useful.</p>
+          <p>Currently pursuing B.Tech CSE at Jaypee Institute of Information Technology, I am exploring DSA, full-stack development, system design and AI/ML while building projects and contributing to open-source communities.</p>
+          <div class="education-card"><span>JIIT · 2025—2029</span><strong>CGPA 9.06 / 10</strong><small>Year 1 · 9.09 SGPA + 9.03 SGPA</small></div>
+        </div>
+        <div class="about-console">
+          <div class="mini-terminal-head"><span></span><span></span><span></span><b>profile.json</b></div>
+          <pre>{
+  "name": "Raghav Sharma",
+  "role": "Software Developer (Student)",
+  "focus": ["DSA", "Full-Stack", "Systems", "AI/ML"],
+  "open_source": true,
+  "football_energy": true,
+  "mission": "build → learn → refine"
+}</pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-label">02 / SKILL MATRIX</div>
+      <div class="section-heading">
+        <h2>Tools I <span>build with.</span></h2>
+        <p>Percentages are personal confidence/proficiency estimates, not formal test scores.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-column">
+          <h3>Core development</h3>
+          <div class="skill" data-level="90"><div><span>C++</span><b>90%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="84"><div><span>Python</span><b>84%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="82"><div><span>JavaScript</span><b>82%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="94"><div><span>HTML</span><b>94%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="90"><div><span>CSS</span><b>90%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="76"><div><span>Java</span><b>76%</b></div><i><em></em></i></div>
+        </div>
+        <div class="skill-column">
+          <h3>Web + developer tools</h3>
+          <div class="skill" data-level="76"><div><span>React</span><b>76%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="70"><div><span>Node.js</span><b>70%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="72"><div><span>MongoDB</span><b>72%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="78"><div><span>MySQL</span><b>78%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="88"><div><span>Git & GitHub</span><b>88%</b></div><i><em></em></i></div>
+          <div class="skill" data-level="84"><div><span>Figma / Canva</span><b>84%</b></div><i><em></em></i></div>
+        </div>
+      </div>
+      <div class="skill-tags"><span>DSA Foundations</span><span>Linux</span><span>VS Code</span><span>Open Source</span><span>Compiler Concepts</span><span>UI/UX</span></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-label">03 / SELECTED WORK</div>
+      <div class="section-heading">
+        <h2>Things I am <span>building.</span></h2>
+        <p>Real repositories, prototypes and ambitious ideas from my current developer journey.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured-project" tabindex="0">
+          <div class="project-top"><div class="project-number">01</div><span class="project-status live">LIVE REPO</span></div>
+          <h3>MiniLang Interpreter</h3>
+          <p>A C++ command-based programming language interpreter covering lexical analysis, parsing, command interpretation, variables and runtime execution.</p>
+          <div class="tags"><span>C++</span><span>Compiler</span><span>Git/GitHub</span></div>
+          <a class="project-link" href="https://github.com/RAGHAV4056/MiniLang-Interpreter" target="_blank" rel="noreferrer">View repository ↗</a>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-top"><div class="project-number">02</div><span class="project-status">IN BUILD</span></div>
+          <h3>ForgeLang</h3>
+          <p>A custom programming-language direction focused on language design, structured syntax, interpretation and developer-friendly tooling.</p>
+          <div class="tags"><span>Language Design</span><span>C++</span><span>Systems</span></div>
+          <a class="project-link" href="https://github.com/RAGHAV4056" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-top"><div class="project-number">03</div><span class="project-status">CLIENT WEB</span></div>
+          <h3>Ace Roofings and Acoustic Solutions</h3>
+          <p>A business-focused website prototype designed to present services, solutions and company information through a clean digital experience.</p>
+          <div class="tags"><span>Web</span><span>UI/UX</span><span>Figma</span></div>
+          <a class="project-link" href="https://rabid-patch-16556176.figma.site/" target="_blank" rel="noreferrer">Open prototype ↗</a>
+        </article>
+
+        <article class="project-card" tabindex="0">
+          <div class="project-top"><div class="project-number">04</div><span class="project-status">PROTOTYPE</span></div>
+          <h3>BITBOX Hackathon 6.0</h3>
+          <p>Prototype created for GDG's BITBOX Hackathon 6.0, exploring interactive web experiences with a design-first approach.</p>
+          <div class="tags"><span>Figma</span><span>UI/UX</span><span>Prototype</span></div>
+          <a class="project-link" href="https://cable-eel-47876249.figma.site/" target="_blank" rel="noreferrer">Open prototype ↗</a>
+        </article>
+
+        <article class="project-card future-project" tabindex="0">
+          <div class="project-top"><div class="project-number">05</div><span class="project-status">SOON</span></div>
+          <h3>Parallel</h3>
+          <p>A future collaborative coding platform for simultaneous editing, presence and a shared workspace. Built around realtime collaboration and shared coding sessions.</p>
+          <div class="tags"><span>Realtime</span><span>Collaboration</span><span>Web</span></div>
+          <span class="project-link muted">To be made soon</span>
+        </article>
+
+        <article class="project-card future-project" tabindex="0">
+          <div class="project-top"><div class="project-number">06</div><span class="project-status">SOON</span></div>
+          <h3>CodeNexus</h3>
+          <p>A planned syllabus-focused Git-like developer tool inspired by version control concepts, designed as the next evolution of my MiniGit / RepoForge direction.</p>
+          <div class="tags"><span>Git</span><span>Systems</span><span>C++</span></div>
+          <span class="project-link muted">To be made soon</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-label">04 / EXPERIENCE</div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-year">2026</div><div><h3>Campus Ambassador · Elip AI (YC W25)</h3><p>Representing Elip AI on campus and helping connect the startup with students and the student developer community.</p></div></article>
+        <article class="timeline-item"><div class="timeline-year">2026</div><div><h3>Google Gemini Student Ambassador</h3><p>Part of the Google Gemini Student Ambassador program, contributing to student-focused technology and community activities.</p></div></article>
+        <article class="timeline-item"><div class="timeline-year">2026</div><div><h3>GSSoC 2026 · Contributor & Ambassador</h3><p>Contributing to the open-source ecosystem through GirlScript Summer of Code.</p></div></article>
+      </div>
+    </section>
+
+    <section id="clubs" class="section">
+      <div class="section-label">05 / CLUBS & COMMUNITIES</div>
+      <div class="club-grid">
+        <article class="club-card"><span>01</span><h3>GDG JIIT-128</h3><p>Volunteer · UI/UX Team</p><small>Google Developer Group JIIT-128</small></article>
+        <article class="club-card"><span>02</span><h3>JODC-128</h3><p>Core Team · Technical Member</p><small>JIIT Open Source Developers Circle</small></article>
+        <article class="club-card"><span>03</span><h3>JYC-128</h3><p>Member · Technical + PR Team</p><small>Jaypee Youth Club</small></article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-label">06 / ACHIEVEMENTS & RECOGNITION</div>
+      <div class="achievement-grid">
+        <div class="achievement"><b>01</b><h3>GSSoC 2026</h3><p>Contributor & Ambassador · Open-Source Track</p></div>
+        <div class="achievement"><b>02</b><h3>Google Gemini Student Ambassador</h3><p>Google Gemini Student Ambassador Program · 2026</p></div>
+        <div class="achievement"><b>03</b><h3>Deloitte Cyber Job Simulation</h3><p>Completed exercises covering cybersecurity fundamentals · 2026</p></div>
+        <div class="achievement"><b>04</b><h3>Deloitte Data Analytics Job Simulation</h3><p>Experience in data analysis and visualisation · 2026</p></div>
+        <div class="achievement"><b>05</b><h3>Git & GitHub Bootcamp</h3><p>Let's Upgrade · in collaboration with NSDC, GDG MAD & ITM Group of Institutions · 2026</p></div>
+        <div class="achievement"><b>06</b><h3>Innovate NSUT'26</h3><p>Certificate of participation · 2026</p></div>
+        <div class="achievement"><b>07</b><h3>5th Place · Freshmen Clash 25.1</h3><p>Internal college coding competition · 2025</p></div>
+        <div class="achievement"><b>08</b><h3>SIH Internal Round Selectee</h3><p>Smart India Hackathon · 2025</p></div>
+        <div class="achievement"><b>09</b><h3>Techno-Wizard Award</h3><p>Technology award for contribution to the school's IT Society · 2025</p></div>
+        <div class="achievement"><b>10</b><h3>Indian Silicon Valley Challenge</h3><p>Round 1 cleared; awarded a Python Udemy course by Google India and Scaler School of Technology · 2024</p></div>
+      </div>
+    </section>
+
+    <section id="terminal" class="section terminal-section">
+      <div class="section-label">07 / INTERACTIVE TERMINAL</div>
+      <div class="section-heading">
+        <h2>Try the <span>terminal.</span></h2>
+        <p>Explore my portfolio like a command line. Ask about any project with <span class="accent">project &lt;name&gt;</span>. Nothing executes on your machine.</p>
+      </div>
+      <div class="terminal-window">
+        <div class="terminal-top"><span class="window-dot red"></span><span class="window-dot yellow"></span><span class="window-dot green"></span><span class="terminal-title">visitor@raghav-sandbox:~</span></div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="output-line">Welcome to Raghav's Digital Sandbox.</div>
+          <div class="output-line">Type <span class="accent">help</span> to explore.</div>
+          <div id="terminalOutput"></div>
+          <form class="terminal-form" id="terminalForm"><span>$</span><input id="terminalInput" aria-label="Terminal command" autocomplete="off" spellcheck="false" placeholder="type a command..."></form>
+        </div>
+      </div>
+      <div class="quick-commands" aria-label="Quick terminal commands"><button data-command="about">about</button><button data-command="skills">skills</button><button data-command="projects">projects</button><button data-command="experience">experience</button><button data-command="clubs">clubs</button><button data-command="contact">contact</button><button data-command="clear">clear</button></div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <div class="section-label">08 / CONTACT</div>
+        <h2>Let's build something<br><span>worth shipping.</span></h2>
+        <p>Open to learning, building, collaborating and contributing.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/raghav-sharma-9a2729358/" target="_blank" rel="noreferrer"><span>LinkedIn</span><small>Professional profile ↗</small></a>
+        <a href="https://github.com/RAGHAV4056" target="_blank" rel="noreferrer"><span>GitHub</span><small>Projects & code ↗</small></a>
+        <a href="https://www.instagram.com/raghavsharma732?stkn=MXJvZzlpYzloZGhicw==" target="_blank" rel="noreferrer"><span>Instagram</span><small>@raghavsharma732 ↗</small></a>
+        <a href="mailto:raghavsharma4056@gmail.com"><span>Email</span><small>raghavsharma4056@gmail.com ↗</small></a>
+        <a href="tel:+918010009477"><span>Phone</span><small>+91 801 000 9477 ↗</small></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> Raghav Sharma</span><span>HTML + CSS + JavaScript</span><span>GSAP enhanced</span></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+  <script src="src/script.js"></script>
+</body>
+</html>
